@@ -20,7 +20,6 @@
         <realm-name>file</realm-name>
     </login-config>
 
-    <!-- /secure/hello -->
     <security-constraint>
         <web-resource-collection>
             <web-resource-name>Hello</web-resource-name>
@@ -32,7 +31,6 @@
         </auth-constraint>
     </security-constraint>
 
-    <!-- /secure/admin -->
     <security-constraint>
         <web-resource-collection>
             <web-resource-name>Admin</web-resource-name>
